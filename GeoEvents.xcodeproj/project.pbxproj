@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D7006751B9ECC670025FCBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D7006741B9ECC670025FCBD /* Foundation.framework */; };
+		9D7006771B9ECC670025FCBD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D7006761B9ECC670025FCBD /* CoreGraphics.framework */; };
+		9D7006791B9ECC670025FCBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D7006781B9ECC670025FCBD /* UIKit.framework */; };
+		9D70067F1B9ECC670025FCBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D70067D1B9ECC670025FCBD /* InfoPlist.strings */; };
+		9D7006811B9ECC670025FCBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7006801B9ECC670025FCBD /* main.m */; };
+		9D7006851B9ECC670025FCBD /* GEOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7006841B9ECC670025FCBD /* GEOAppDelegate.m */; };
+		9D7006881B9ECC670025FCBD /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D7006861B9ECC670025FCBD /* Main_iPhone.storyboard */; };
+		9D70068B1B9ECC670025FCBD /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D7006891B9ECC670025FCBD /* Main_iPad.storyboard */; };
+		9D70068E1B9ECC670025FCBD /* GEOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D70068D1B9ECC670025FCBD /* GEOViewController.m */; };
+		9D7006901B9ECC670025FCBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D70068F1B9ECC670025FCBD /* Images.xcassets */; };
+		9D7006971B9ECC670025FCBD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D7006961B9ECC670025FCBD /* XCTest.framework */; };
+		9D7006981B9ECC670025FCBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D7006741B9ECC670025FCBD /* Foundation.framework */; };
+		9D7006991B9ECC670025FCBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D7006781B9ECC670025FCBD /* UIKit.framework */; };
+		9D7006A11B9ECC670025FCBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D70069F1B9ECC670025FCBD /* InfoPlist.strings */; };
+		9D7006A31B9ECC670025FCBD /* GeoEventsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7006A21B9ECC670025FCBD /* GeoEventsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D70069A1B9ECC670025FCBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D7006691B9ECC670025FCBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D7006701B9ECC670025FCBD;
+			remoteInfo = GeoEvents;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D7006711B9ECC670025FCBD /* GeoEvents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoEvents.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D7006741B9ECC670025FCBD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9D7006761B9ECC670025FCBD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9D7006781B9ECC670025FCBD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9D70067C1B9ECC670025FCBD /* GeoEvents-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeoEvents-Info.plist"; sourceTree = "<group>"; };
+		9D70067E1B9ECC670025FCBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D7006801B9ECC670025FCBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D7006821B9ECC670025FCBD /* GeoEvents-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GeoEvents-Prefix.pch"; sourceTree = "<group>"; };
+		9D7006831B9ECC670025FCBD /* GEOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GEOAppDelegate.h; sourceTree = "<group>"; };
+		9D7006841B9ECC670025FCBD /* GEOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GEOAppDelegate.m; sourceTree = "<group>"; };
+		9D7006871B9ECC670025FCBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		9D70068A1B9ECC670025FCBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		9D70068C1B9ECC670025FCBD /* GEOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GEOViewController.h; sourceTree = "<group>"; };
+		9D70068D1B9ECC670025FCBD /* GEOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GEOViewController.m; sourceTree = "<group>"; };
+		9D70068F1B9ECC670025FCBD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9D7006951B9ECC670025FCBD /* GeoEventsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoEventsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D7006961B9ECC670025FCBD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9D70069E1B9ECC670025FCBD /* GeoEventsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeoEventsTests-Info.plist"; sourceTree = "<group>"; };
+		9D7006A01B9ECC670025FCBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D7006A21B9ECC670025FCBD /* GeoEventsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoEventsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D70066E1B9ECC670025FCBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D7006771B9ECC670025FCBD /* CoreGraphics.framework in Frameworks */,
+				9D7006791B9ECC670025FCBD /* UIKit.framework in Frameworks */,
+				9D7006751B9ECC670025FCBD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D7006921B9ECC670025FCBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D7006971B9ECC670025FCBD /* XCTest.framework in Frameworks */,
+				9D7006991B9ECC670025FCBD /* UIKit.framework in Frameworks */,
+				9D7006981B9ECC670025FCBD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D7006681B9ECC670025FCBD = {
+			isa = PBXGroup;
+			children = (
+				9D70067A1B9ECC670025FCBD /* GeoEvents */,
+				9D70069C1B9ECC670025FCBD /* GeoEventsTests */,
+				9D7006731B9ECC670025FCBD /* Frameworks */,
+				9D7006721B9ECC670025FCBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D7006721B9ECC670025FCBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D7006711B9ECC670025FCBD /* GeoEvents.app */,
+				9D7006951B9ECC670025FCBD /* GeoEventsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D7006731B9ECC670025FCBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D7006741B9ECC670025FCBD /* Foundation.framework */,
+				9D7006761B9ECC670025FCBD /* CoreGraphics.framework */,
+				9D7006781B9ECC670025FCBD /* UIKit.framework */,
+				9D7006961B9ECC670025FCBD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D70067A1B9ECC670025FCBD /* GeoEvents */ = {
+			isa = PBXGroup;
+			children = (
+				9D7006831B9ECC670025FCBD /* GEOAppDelegate.h */,
+				9D7006841B9ECC670025FCBD /* GEOAppDelegate.m */,
+				9D7006861B9ECC670025FCBD /* Main_iPhone.storyboard */,
+				9D7006891B9ECC670025FCBD /* Main_iPad.storyboard */,
+				9D70068C1B9ECC670025FCBD /* GEOViewController.h */,
+				9D70068D1B9ECC670025FCBD /* GEOViewController.m */,
+				9D70068F1B9ECC670025FCBD /* Images.xcassets */,
+				9D70067B1B9ECC670025FCBD /* Supporting Files */,
+			);
+			path = GeoEvents;
+			sourceTree = "<group>";
+		};
+		9D70067B1B9ECC670025FCBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D70067C1B9ECC670025FCBD /* GeoEvents-Info.plist */,
+				9D70067D1B9ECC670025FCBD /* InfoPlist.strings */,
+				9D7006801B9ECC670025FCBD /* main.m */,
+				9D7006821B9ECC670025FCBD /* GeoEvents-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D70069C1B9ECC670025FCBD /* GeoEventsTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D7006A21B9ECC670025FCBD /* GeoEventsTests.m */,
+				9D70069D1B9ECC670025FCBD /* Supporting Files */,
+			);
+			path = GeoEventsTests;
+			sourceTree = "<group>";
+		};
+		9D70069D1B9ECC670025FCBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D70069E1B9ECC670025FCBD /* GeoEventsTests-Info.plist */,
+				9D70069F1B9ECC670025FCBD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D7006701B9ECC670025FCBD /* GeoEvents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D7006A61B9ECC670025FCBD /* Build configuration list for PBXNativeTarget "GeoEvents" */;
+			buildPhases = (
+				9D70066D1B9ECC670025FCBD /* Sources */,
+				9D70066E1B9ECC670025FCBD /* Frameworks */,
+				9D70066F1B9ECC670025FCBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoEvents;
+			productName = GeoEvents;
+			productReference = 9D7006711B9ECC670025FCBD /* GeoEvents.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D7006941B9ECC670025FCBD /* GeoEventsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D7006A91B9ECC670025FCBD /* Build configuration list for PBXNativeTarget "GeoEventsTests" */;
+			buildPhases = (
+				9D7006911B9ECC670025FCBD /* Sources */,
+				9D7006921B9ECC670025FCBD /* Frameworks */,
+				9D7006931B9ECC670025FCBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D70069B1B9ECC670025FCBD /* PBXTargetDependency */,
+			);
+			name = GeoEventsTests;
+			productName = GeoEventsTests;
+			productReference = 9D7006951B9ECC670025FCBD /* GeoEventsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D7006691B9ECC670025FCBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GEO;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = novediagroup;
+				TargetAttributes = {
+					9D7006941B9ECC670025FCBD = {
+						TestTargetID = 9D7006701B9ECC670025FCBD;
+					};
+				};
+			};
+			buildConfigurationList = 9D70066C1B9ECC670025FCBD /* Build configuration list for PBXProject "GeoEvents" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D7006681B9ECC670025FCBD;
+			productRefGroup = 9D7006721B9ECC670025FCBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D7006701B9ECC670025FCBD /* GeoEvents */,
+				9D7006941B9ECC670025FCBD /* GeoEventsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D70066F1B9ECC670025FCBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D70068B1B9ECC670025FCBD /* Main_iPad.storyboard in Resources */,
+				9D7006901B9ECC670025FCBD /* Images.xcassets in Resources */,
+				9D7006881B9ECC670025FCBD /* Main_iPhone.storyboard in Resources */,
+				9D70067F1B9ECC670025FCBD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D7006931B9ECC670025FCBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D7006A11B9ECC670025FCBD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D70066D1B9ECC670025FCBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D70068E1B9ECC670025FCBD /* GEOViewController.m in Sources */,
+				9D7006851B9ECC670025FCBD /* GEOAppDelegate.m in Sources */,
+				9D7006811B9ECC670025FCBD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D7006911B9ECC670025FCBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D7006A31B9ECC670025FCBD /* GeoEventsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D70069B1B9ECC670025FCBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D7006701B9ECC670025FCBD /* GeoEvents */;
+			targetProxy = 9D70069A1B9ECC670025FCBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D70067D1B9ECC670025FCBD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D70067E1B9ECC670025FCBD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9D7006861B9ECC670025FCBD /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D7006871B9ECC670025FCBD /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9D7006891B9ECC670025FCBD /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D70068A1B9ECC670025FCBD /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		9D70069F1B9ECC670025FCBD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D7006A01B9ECC670025FCBD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D7006A41B9ECC670025FCBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D7006A51B9ECC670025FCBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D7006A71B9ECC670025FCBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoEvents/GeoEvents-Prefix.pch";
+				INFOPLIST_FILE = "GeoEvents/GeoEvents-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9D7006A81B9ECC670025FCBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoEvents/GeoEvents-Prefix.pch";
+				INFOPLIST_FILE = "GeoEvents/GeoEvents-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9D7006AA1B9ECC670025FCBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GeoEvents.app/GeoEvents";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoEvents/GeoEvents-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GeoEventsTests/GeoEventsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9D7006AB1B9ECC670025FCBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GeoEvents.app/GeoEvents";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoEvents/GeoEvents-Prefix.pch";
+				INFOPLIST_FILE = "GeoEventsTests/GeoEventsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D70066C1B9ECC670025FCBD /* Build configuration list for PBXProject "GeoEvents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D7006A41B9ECC670025FCBD /* Debug */,
+				9D7006A51B9ECC670025FCBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D7006A61B9ECC670025FCBD /* Build configuration list for PBXNativeTarget "GeoEvents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D7006A71B9ECC670025FCBD /* Debug */,
+				9D7006A81B9ECC670025FCBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D7006A91B9ECC670025FCBD /* Build configuration list for PBXNativeTarget "GeoEventsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D7006AA1B9ECC670025FCBD /* Debug */,
+				9D7006AB1B9ECC670025FCBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D7006691B9ECC670025FCBD /* Project object */;
+}

@@ -38,6 +38,7 @@
                 NSLog(@"Unable to perform fetch.");
                 NSLog(@"%@, %@", error, error.localizedDescription);
             }
+    [self.tableView setUserInteractionEnabled:YES];
             
             [self.tableView reloadData];
 
@@ -96,13 +97,11 @@
 -(void)controllerWillChangeContent:(NSFetchedResultsController *)controller
 {
     [self.tableView beginUpdates];
-    NSLog(@"bim");
 }
 
 -(void) controllerDidChangeContent:(NSFetchedResultsController *)controller
 {
     [self.tableView endUpdates];
-    NSLog(@"bam");
 }
 
 - (void)controller:(NSFetchedResultsController *)controller didChangeSection:(id )sectionInfo
@@ -129,12 +128,11 @@
       newIndexPath:(NSIndexPath *)newIndexPath {
     NSLog(@"Bem");
     UITableView *tableView = self.tableView;
-    dispatch_async(dispatch_get_main_queue(), ^{
     switch(type) {
             
         case NSFetchedResultsChangeInsert:
             [tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:newIndexPath]
-                             withRowAnimation:UITableViewRowAnimationFade];
+                             withRowAnimation:nil];
             break;
             
         case NSFetchedResultsChangeDelete:
@@ -154,7 +152,6 @@
                              withRowAnimation:UITableViewRowAnimationFade];
             break;
     }
-    });
 }
 
 /*

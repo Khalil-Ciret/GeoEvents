@@ -60,8 +60,6 @@
     NSFetchRequest *request = [[NSFetchRequest alloc] init];
     NSEntityDescription *entite=[NSEntityDescription entityForName:@"Evenements"inManagedObjectContext:self.managedObjectContext];
     
-    dispatch_semaphore_t semaphoreRequeteUserID=dispatch_semaphore_create(0);
-    
     [request setPredicate:[NSPredicate predicateWithFormat:@"SELF.lancePar = %@", self.userCourant]];
     [request setEntity:entite];
     

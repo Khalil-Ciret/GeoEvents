@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D4B09DA1BA6BCB20040FD0A /* GEOViewControllerListeHistorique.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4B09D91BA6BCB20040FD0A /* GEOViewControllerListeHistorique.m */; };
+		9D4B09E01BA6C8460040FD0A /* ModelEvents.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9D4B09DE1BA6C8460040FD0A /* ModelEvents.xcdatamodeld */; };
+		9D4B09E21BA6CFCC0040FD0A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4B09E11BA6CFCC0040FD0A /* CoreData.framework */; };
+		9D4B09E51BA6F88B0040FD0A /* Evenements.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4B09E41BA6F88B0040FD0A /* Evenements.m */; };
+		9D4B09E81BA703F30040FD0A /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4B09E71BA703F30040FD0A /* Event.m */; };
 		9D7006751B9ECC670025FCBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D7006741B9ECC670025FCBD /* Foundation.framework */; };
 		9D7006771B9ECC670025FCBD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D7006761B9ECC670025FCBD /* CoreGraphics.framework */; };
 		9D7006791B9ECC670025FCBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D7006781B9ECC670025FCBD /* UIKit.framework */; };
@@ -14,7 +19,6 @@
 		9D7006811B9ECC670025FCBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7006801B9ECC670025FCBD /* main.m */; };
 		9D7006851B9ECC670025FCBD /* GEOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7006841B9ECC670025FCBD /* GEOAppDelegate.m */; };
 		9D7006881B9ECC670025FCBD /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D7006861B9ECC670025FCBD /* Main_iPhone.storyboard */; };
-		9D70068B1B9ECC670025FCBD /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D7006891B9ECC670025FCBD /* Main_iPad.storyboard */; };
 		9D70068E1B9ECC670025FCBD /* GEOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D70068D1B9ECC670025FCBD /* GEOViewController.m */; };
 		9D7006901B9ECC670025FCBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D70068F1B9ECC670025FCBD /* Images.xcassets */; };
 		9D7006971B9ECC670025FCBD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D7006961B9ECC670025FCBD /* XCTest.framework */; };
@@ -22,6 +26,19 @@
 		9D7006991B9ECC670025FCBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D7006781B9ECC670025FCBD /* UIKit.framework */; };
 		9D7006A11B9ECC670025FCBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D70069F1B9ECC670025FCBD /* InfoPlist.strings */; };
 		9D7006A31B9ECC670025FCBD /* GeoEventsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7006A21B9ECC670025FCBD /* GeoEventsTests.m */; };
+		9D7CC2871B9EFDB6008A10D9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D7CC2861B9EFDB6008A10D9 /* MapKit.framework */; };
+		9D7CC2911B9F2ECD008A10D9 /* GEOViewControllerCreationEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7CC28F1B9F2ECD008A10D9 /* GEOViewControllerCreationEvents.m */; };
+		9D7CC2941B9F3B9B008A10D9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D7CC2931B9F3B9B008A10D9 /* CoreLocation.framework */; };
+		9D87D7951BB189ED003C6FEB /* User+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D87D7921BB189ED003C6FEB /* User+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		9D87D7961BB189ED003C6FEB /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D87D7941BB189ED003C6FEB /* User.m */; settings = {ASSET_TAGS = (); }; };
+		9D889A311BA992D0003C226B /* GEOTableViewControllerVingtQuatreHr.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D889A301BA992D0003C226B /* GEOTableViewControllerVingtQuatreHr.m */; };
+		9D8F0D781BA02ACD00409652 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8F0D771BA02ACD00409652 /* CloudKit.framework */; };
+		9D914E181BA81EFC00CE2DE7 /* CelluleHistorique.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D914E171BA81EFC00CE2DE7 /* CelluleHistorique.xib */; };
+		9D914E1B1BA8371200CE2DE7 /* CelluleHistorique.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D914E1A1BA8371200CE2DE7 /* CelluleHistorique.m */; };
+		9D93C7DA1BABF59600B94269 /* GEOLocationFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D93C7D91BABF59600B94269 /* GEOLocationFinder.m */; settings = {ASSET_TAGS = (); }; };
+		9D93C7DD1BABF98D00B94269 /* GEOLocationFinderPourMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D93C7DC1BABF98D00B94269 /* GEOLocationFinderPourMap.m */; settings = {ASSET_TAGS = (); }; };
+		9DE4B5941BA9C0D2005A9C9D /* User+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE4B5931BA9C0D2005A9C9D /* User+Create.m */; };
+		9DE4B59D1BA9C774005A9C9D /* Evenements+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE4B59C1BA9C774005A9C9D /* Evenements+Create.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +52,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9D4B09D81BA6BCB20040FD0A /* GEOViewControllerListeHistorique.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEOViewControllerListeHistorique.h; sourceTree = "<group>"; };
+		9D4B09D91BA6BCB20040FD0A /* GEOViewControllerListeHistorique.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEOViewControllerListeHistorique.m; sourceTree = "<group>"; };
+		9D4B09DF1BA6C8460040FD0A /* ModelEvents.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ModelEvents.xcdatamodel; sourceTree = "<group>"; };
+		9D4B09E11BA6CFCC0040FD0A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9D4B09E31BA6F88B0040FD0A /* Evenements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Evenements.h; sourceTree = "<group>"; };
+		9D4B09E41BA6F88B0040FD0A /* Evenements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Evenements.m; sourceTree = "<group>"; };
+		9D4B09E61BA703F30040FD0A /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		9D4B09E71BA703F30040FD0A /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
 		9D7006711B9ECC670025FCBD /* GeoEvents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoEvents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D7006741B9ECC670025FCBD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9D7006761B9ECC670025FCBD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,7 +71,6 @@
 		9D7006831B9ECC670025FCBD /* GEOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GEOAppDelegate.h; sourceTree = "<group>"; };
 		9D7006841B9ECC670025FCBD /* GEOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GEOAppDelegate.m; sourceTree = "<group>"; };
 		9D7006871B9ECC670025FCBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		9D70068A1B9ECC670025FCBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		9D70068C1B9ECC670025FCBD /* GEOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GEOViewController.h; sourceTree = "<group>"; };
 		9D70068D1B9ECC670025FCBD /* GEOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GEOViewController.m; sourceTree = "<group>"; };
 		9D70068F1B9ECC670025FCBD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -55,6 +79,29 @@
 		9D70069E1B9ECC670025FCBD /* GeoEventsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeoEventsTests-Info.plist"; sourceTree = "<group>"; };
 		9D7006A01B9ECC670025FCBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9D7006A21B9ECC670025FCBD /* GeoEventsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoEventsTests.m; sourceTree = "<group>"; };
+		9D7006AC1B9ED24F0025FCBD /* GeoEvents.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = GeoEvents.entitlements; sourceTree = "<group>"; };
+		9D7CC2861B9EFDB6008A10D9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9D7CC28E1B9F2ECD008A10D9 /* GEOViewControllerCreationEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEOViewControllerCreationEvents.h; sourceTree = "<group>"; };
+		9D7CC28F1B9F2ECD008A10D9 /* GEOViewControllerCreationEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEOViewControllerCreationEvents.m; sourceTree = "<group>"; };
+		9D7CC2931B9F3B9B008A10D9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9D87D7911BB189ED003C6FEB /* User+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "User+CoreDataProperties.h"; sourceTree = "<group>"; };
+		9D87D7921BB189ED003C6FEB /* User+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "User+CoreDataProperties.m"; sourceTree = "<group>"; };
+		9D87D7931BB189ED003C6FEB /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		9D87D7941BB189ED003C6FEB /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		9D889A2F1BA992D0003C226B /* GEOTableViewControllerVingtQuatreHr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEOTableViewControllerVingtQuatreHr.h; sourceTree = "<group>"; };
+		9D889A301BA992D0003C226B /* GEOTableViewControllerVingtQuatreHr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEOTableViewControllerVingtQuatreHr.m; sourceTree = "<group>"; };
+		9D8F0D771BA02ACD00409652 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		9D914E171BA81EFC00CE2DE7 /* CelluleHistorique.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CelluleHistorique.xib; sourceTree = "<group>"; };
+		9D914E191BA8371200CE2DE7 /* CelluleHistorique.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CelluleHistorique.h; sourceTree = "<group>"; };
+		9D914E1A1BA8371200CE2DE7 /* CelluleHistorique.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CelluleHistorique.m; sourceTree = "<group>"; };
+		9D93C7D81BABF59600B94269 /* GEOLocationFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEOLocationFinder.h; sourceTree = "<group>"; };
+		9D93C7D91BABF59600B94269 /* GEOLocationFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEOLocationFinder.m; sourceTree = "<group>"; };
+		9D93C7DB1BABF98D00B94269 /* GEOLocationFinderPourMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEOLocationFinderPourMap.h; sourceTree = "<group>"; };
+		9D93C7DC1BABF98D00B94269 /* GEOLocationFinderPourMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEOLocationFinderPourMap.m; sourceTree = "<group>"; };
+		9DE4B5921BA9C0D2005A9C9D /* User+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "User+Create.h"; sourceTree = "<group>"; };
+		9DE4B5931BA9C0D2005A9C9D /* User+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "User+Create.m"; sourceTree = "<group>"; };
+		9DE4B59B1BA9C774005A9C9D /* Evenements+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Evenements+Create.h"; sourceTree = "<group>"; };
+		9DE4B59C1BA9C774005A9C9D /* Evenements+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Evenements+Create.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +109,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D4B09E21BA6CFCC0040FD0A /* CoreData.framework in Frameworks */,
+				9D7CC2941B9F3B9B008A10D9 /* CoreLocation.framework in Frameworks */,
+				9D7CC2871B9EFDB6008A10D9 /* MapKit.framework in Frameworks */,
 				9D7006771B9ECC670025FCBD /* CoreGraphics.framework in Frameworks */,
+				9D8F0D781BA02ACD00409652 /* CloudKit.framework in Frameworks */,
 				9D7006791B9ECC670025FCBD /* UIKit.framework in Frameworks */,
 				9D7006751B9ECC670025FCBD /* Foundation.framework in Frameworks */,
 			);
@@ -103,6 +154,10 @@
 		9D7006731B9ECC670025FCBD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9D4B09E11BA6CFCC0040FD0A /* CoreData.framework */,
+				9D8F0D771BA02ACD00409652 /* CloudKit.framework */,
+				9D7CC2931B9F3B9B008A10D9 /* CoreLocation.framework */,
+				9D7CC2861B9EFDB6008A10D9 /* MapKit.framework */,
 				9D7006741B9ECC670025FCBD /* Foundation.framework */,
 				9D7006761B9ECC670025FCBD /* CoreGraphics.framework */,
 				9D7006781B9ECC670025FCBD /* UIKit.framework */,
@@ -114,11 +169,37 @@
 		9D70067A1B9ECC670025FCBD /* GeoEvents */ = {
 			isa = PBXGroup;
 			children = (
+				9D7006AC1B9ED24F0025FCBD /* GeoEvents.entitlements */,
 				9D7006831B9ECC670025FCBD /* GEOAppDelegate.h */,
 				9D7006841B9ECC670025FCBD /* GEOAppDelegate.m */,
 				9D7006861B9ECC670025FCBD /* Main_iPhone.storyboard */,
-				9D7006891B9ECC670025FCBD /* Main_iPad.storyboard */,
+				9D93C7D81BABF59600B94269 /* GEOLocationFinder.h */,
+				9D93C7D91BABF59600B94269 /* GEOLocationFinder.m */,
+				9D889A2F1BA992D0003C226B /* GEOTableViewControllerVingtQuatreHr.h */,
+				9D889A301BA992D0003C226B /* GEOTableViewControllerVingtQuatreHr.m */,
+				9D87D7911BB189ED003C6FEB /* User+CoreDataProperties.h */,
+				9D87D7921BB189ED003C6FEB /* User+CoreDataProperties.m */,
+				9D87D7931BB189ED003C6FEB /* User.h */,
+				9D87D7941BB189ED003C6FEB /* User.m */,
+				9D914E171BA81EFC00CE2DE7 /* CelluleHistorique.xib */,
+				9D914E191BA8371200CE2DE7 /* CelluleHistorique.h */,
+				9D914E1A1BA8371200CE2DE7 /* CelluleHistorique.m */,
+				9D7CC28E1B9F2ECD008A10D9 /* GEOViewControllerCreationEvents.h */,
+				9D4B09E61BA703F30040FD0A /* Event.h */,
+				9D4B09E71BA703F30040FD0A /* Event.m */,
+				9D4B09DE1BA6C8460040FD0A /* ModelEvents.xcdatamodeld */,
+				9D4B09E31BA6F88B0040FD0A /* Evenements.h */,
+				9DE4B59B1BA9C774005A9C9D /* Evenements+Create.h */,
+				9DE4B59C1BA9C774005A9C9D /* Evenements+Create.m */,
+				9DE4B5921BA9C0D2005A9C9D /* User+Create.h */,
+				9DE4B5931BA9C0D2005A9C9D /* User+Create.m */,
+				9D4B09E41BA6F88B0040FD0A /* Evenements.m */,
+				9D7CC28F1B9F2ECD008A10D9 /* GEOViewControllerCreationEvents.m */,
 				9D70068C1B9ECC670025FCBD /* GEOViewController.h */,
+				9D93C7DB1BABF98D00B94269 /* GEOLocationFinderPourMap.h */,
+				9D93C7DC1BABF98D00B94269 /* GEOLocationFinderPourMap.m */,
+				9D4B09D81BA6BCB20040FD0A /* GEOViewControllerListeHistorique.h */,
+				9D4B09D91BA6BCB20040FD0A /* GEOViewControllerListeHistorique.m */,
 				9D70068D1B9ECC670025FCBD /* GEOViewController.m */,
 				9D70068F1B9ECC670025FCBD /* Images.xcassets */,
 				9D70067B1B9ECC670025FCBD /* Supporting Files */,
@@ -203,6 +284,14 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = novediagroup;
 				TargetAttributes = {
+					9D7006701B9ECC670025FCBD = {
+						DevelopmentTeam = C35G5EW7P5;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
 					9D7006941B9ECC670025FCBD = {
 						TestTargetID = 9D7006701B9ECC670025FCBD;
 					};
@@ -232,8 +321,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D70068B1B9ECC670025FCBD /* Main_iPad.storyboard in Resources */,
 				9D7006901B9ECC670025FCBD /* Images.xcassets in Resources */,
+				9D914E181BA81EFC00CE2DE7 /* CelluleHistorique.xib in Resources */,
 				9D7006881B9ECC670025FCBD /* Main_iPhone.storyboard in Resources */,
 				9D70067F1B9ECC670025FCBD /* InfoPlist.strings in Resources */,
 			);
@@ -254,9 +343,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D7CC2911B9F2ECD008A10D9 /* GEOViewControllerCreationEvents.m in Sources */,
+				9D4B09E51BA6F88B0040FD0A /* Evenements.m in Sources */,
+				9D914E1B1BA8371200CE2DE7 /* CelluleHistorique.m in Sources */,
 				9D70068E1B9ECC670025FCBD /* GEOViewController.m in Sources */,
+				9D87D7961BB189ED003C6FEB /* User.m in Sources */,
+				9D4B09E01BA6C8460040FD0A /* ModelEvents.xcdatamodeld in Sources */,
+				9D93C7DD1BABF98D00B94269 /* GEOLocationFinderPourMap.m in Sources */,
+				9D4B09E81BA703F30040FD0A /* Event.m in Sources */,
+				9DE4B5941BA9C0D2005A9C9D /* User+Create.m in Sources */,
 				9D7006851B9ECC670025FCBD /* GEOAppDelegate.m in Sources */,
 				9D7006811B9ECC670025FCBD /* main.m in Sources */,
+				9D889A311BA992D0003C226B /* GEOTableViewControllerVingtQuatreHr.m in Sources */,
+				9DE4B59D1BA9C774005A9C9D /* Evenements+Create.m in Sources */,
+				9D93C7DA1BABF59600B94269 /* GEOLocationFinder.m in Sources */,
+				9D87D7951BB189ED003C6FEB /* User+CoreDataProperties.m in Sources */,
+				9D4B09DA1BA6BCB20040FD0A /* GEOViewControllerListeHistorique.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +395,6 @@
 				9D7006871B9ECC670025FCBD /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		9D7006891B9ECC670025FCBD /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9D70068A1B9ECC670025FCBD /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		9D70069F1B9ECC670025FCBD /* InfoPlist.strings */ = {
@@ -391,10 +485,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = GeoEvents/GeoEvents.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GeoEvents/GeoEvents-Prefix.pch";
 				INFOPLIST_FILE = "GeoEvents/GeoEvents-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -404,10 +503,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = GeoEvents/GeoEvents.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GeoEvents/GeoEvents-Prefix.pch";
 				INFOPLIST_FILE = "GeoEvents/GeoEvents-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -471,6 +575,7 @@
 				9D7006A81B9ECC670025FCBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D7006A91B9ECC670025FCBD /* Build configuration list for PBXNativeTarget "GeoEventsTests" */ = {
 			isa = XCConfigurationList;
@@ -479,8 +584,22 @@
 				9D7006AB1B9ECC670025FCBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9D4B09DE1BA6C8460040FD0A /* ModelEvents.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9D4B09DF1BA6C8460040FD0A /* ModelEvents.xcdatamodel */,
+			);
+			currentVersion = 9D4B09DF1BA6C8460040FD0A /* ModelEvents.xcdatamodel */;
+			path = ModelEvents.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9D7006691B9ECC670025FCBD /* Project object */;
 }

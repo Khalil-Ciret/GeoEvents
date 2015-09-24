@@ -7,7 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CloudKit/CloudKit.h>
+#import "Event.h"
+#import "GEOViewControllerCreationEvents.h"
+#import "GEOViewControllerListeHistorique.h"
+@import MapKit;
 
-@interface GEOViewController : UIViewController
+@interface GEOViewController : UIViewController <CLLocationManagerDelegate,MKMapViewDelegate>
+@property (weak, nonatomic) IBOutlet MKMapView *map;
+@property (strong, nonatomic) NSManagedObjectContext* managedObjectContext;
+@property (strong, nonatomic) User *userCourant;
+
+-(void)inscriptionNotification;
+-(void) desinscriptionDerniereNotification;
+-(void) actualiserLaCarte;
+
 
 @end

@@ -2,7 +2,7 @@
 //  User+CoreDataProperties.h
 //  GeoEvents
 //
-//  Created by Khalil Ciret on 22/09/2015.
+//  Created by Khalil Ciret on 25/09/2015.
 //  Copyright © 2015 novediagroup. All rights reserved.
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
@@ -15,9 +15,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface User (CoreDataProperties)
 
+@property (nullable, nonatomic, retain) NSNumber *currentUser;
 @property (nullable, nonatomic, retain) NSNumber *nbreEvent;
 @property (nullable, nonatomic, retain) NSString *recordName;
-@property (nullable, nonatomic, retain) NSNumber *currentUser;
+@property (nullable, nonatomic, retain) NSString *currentSubscriptionID;
 @property (nullable, nonatomic, retain) NSSet<Evenements *> *aLance;
 
 @end

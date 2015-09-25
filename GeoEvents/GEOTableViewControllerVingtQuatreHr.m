@@ -69,7 +69,7 @@
     // Return the number of rows in the section.
     
     NSArray *sections=[self.resController sections];
-    id<NSFetchedResultsSectionInfo> sectionInfo= [sections objectAtIndex:section];
+    id <NSFetchedResultsSectionInfo> sectionInfo= [sections objectAtIndex:section];
     return  [sectionInfo numberOfObjects];
 }
 
@@ -102,6 +102,7 @@
 -(void) controllerDidChangeContent:(NSFetchedResultsController *)controller
 {
     [self.tableView endUpdates];
+
 }
 
 - (void)controller:(NSFetchedResultsController *)controller didChangeSection:(id )sectionInfo
@@ -131,8 +132,11 @@
     switch(type) {
             
         case NSFetchedResultsChangeInsert:
+            NSLog(@"%d",[self.tableView numberOfRowsInSection:0]);
+            [self.tableView reloadData ];
             [tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:newIndexPath]
-                             withRowAnimation:nil];
+                             withRowAnimation:UITableViewRowAnimationFade];
+                        NSLog(@"%d",[self.tableView numberOfRowsInSection:0]);
             break;
             
         case NSFetchedResultsChangeDelete:

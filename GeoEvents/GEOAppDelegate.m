@@ -55,7 +55,7 @@
     //Lors de l'initialisation du finder, celui-ci s'occupe de faire la première mise à jour de la base de données
     //une fois que la location précise à été trouvée à l'aide du GPS.
     self.finder = [[GEOLocationFinder alloc] init];
-    
+    [self majCompleteBDD];
     //Inscriptions pour les notifications push
     if ([application respondsToSelector:@selector (isRegisteredForRemoteNotifications)])
     {
@@ -234,7 +234,7 @@
     NSCompoundPredicate *predicateFinal = [NSCompoundPredicate andPredicateWithSubpredicates: predicates];
     
     CKQuery *query = [[CKQuery alloc] initWithRecordType:@"Evenements" predicate: predicateFinal];
-                                           
+    
     [publicDatabase performQuery:query inZoneWithID: nil completionHandler:^(NSArray * results, NSError *error)
      {
          if (!error)

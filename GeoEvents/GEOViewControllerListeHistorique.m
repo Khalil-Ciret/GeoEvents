@@ -31,12 +31,12 @@
     UIAlertAction* detruireHistorique = [UIAlertAction actionWithTitle:@"Adieu, historique." style:     UIAlertActionStyleDefault
                                                           handler:^(UIAlertAction * action) {
                     
-        NSFetchRequest *allEvents = [[NSFetchRequest alloc] init];
-        [allEvents setEntity:[NSEntityDescription entityForName:@"Evenements" inManagedObjectContext:  self.managedObjectContext]] ;
-        [allEvents setIncludesPropertyValues:NO]; //only fetch the managedObjectID
-                                                              
+        NSFetchRequest *allMyEvents = [[NSFetchRequest alloc] init];
+        [allMyEvents setEntity:[NSEntityDescription entityForName:@"Evenements" inManagedObjectContext:  self.managedObjectContext]] ;
+        [allMyEvents setIncludesPropertyValues:NO]; //only fetch the managedObjectID
+                                                              [allMyEvents setPredicate:[NSPredicate predicateWithFormat:@"TRUEPREDICATE"]];//SELF.lancePar = %@", self.userCourant]];
         NSError *error = nil;
-        NSArray *evs = [self.managedObjectContext executeFetchRequest:allEvents error:&error];
+        NSArray *evs = [self.managedObjectContext executeFetchRequest:allMyEvents error:&error];
         
         for (NSManagedObject *ev in evs) {
             [self.managedObjectContext deleteObject:ev];

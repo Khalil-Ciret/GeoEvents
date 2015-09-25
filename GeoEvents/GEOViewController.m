@@ -118,7 +118,7 @@
     notificationInfo.shouldSendContentAvailable=YES;
     abonnement.notificationInfo=notificationInfo;
     
-    self.idAbonnementCourant=abonnement.subscriptionID;
+    self.userCourant.currentSubscriptionID=abonnement.subscriptionID;
     CKDatabase *publicDatabase= [[CKContainer defaultContainer] publicCloudDatabase];
     [publicDatabase saveSubscription:abonnement completionHandler:^(CKSubscription *subscription, NSError *error){
         if (error)
@@ -145,21 +145,24 @@
             NSLog(@"Erreur effaçage %@", error);
         else
             NSLog(@"Abonnement effaçage bien pris en compte.");
+         [self.managedObjectContext save:nil];
     }];
+    
 
 }
 
 -(void) desinscriptionDerniereNotification
 {
-    if (![self.idAbonnementCourant isEqualToString:@""]){
+    if (self.userCourant.currentSubscriptionID){
     CKDatabase *publicDatabase = [[CKContainer defaultContainer] publicCloudDatabase];
-    [publicDatabase deleteSubscriptionWithID:self.idAbonnementCourant completionHandler:^(NSString *subscriptionID, NSError *error){
+    [publicDatabase deleteSubscriptionWithID:self.userCourant.currentSubscriptionID completionHandler:^(NSString *subscriptionID, NSError *error){
         if (error)
             NSLog(@"Erreur %@", error);
         else
             NSLog(@"Désinscription du dernier abonnement.");
         
     }];
+
     }
 }
 - (void)didReceiveMemoryWarning

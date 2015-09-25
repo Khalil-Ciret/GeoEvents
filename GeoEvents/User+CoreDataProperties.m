@@ -2,7 +2,7 @@
 //  User+CoreDataProperties.m
 //  GeoEvents
 //
-//  Created by Khalil Ciret on 22/09/2015.
+//  Created by Khalil Ciret on 25/09/2015.
 //  Copyright © 2015 novediagroup. All rights reserved.
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
@@ -13,9 +13,10 @@
 
 @implementation User (CoreDataProperties)
 
+@dynamic currentUser;
 @dynamic nbreEvent;
 @dynamic recordName;
-@dynamic currentUser;
+@dynamic currentSubscriptionID;
 @dynamic aLance;
 
 @end

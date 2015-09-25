@@ -110,7 +110,7 @@
 //ヽ༼ຈل͜ຈ༽ﾉ RIOT ヽ༼ຈل͜ຈ༽ﾉ 
 -(void)inscriptionNotification
 {
-    NSPredicate *predicat = [NSPredicate predicateWithFormat:@"distanceToLocation:fromLocation:(%@, SELF.lieu) < 10000", self.finder.locationCourantePrecise];
+    NSPredicate *predicat = [NSPredicate predicateWithFormat:@"distanceToLocation:fromLocation:(SELF.lieu, %@) < 10000", self.finder.locationCourantePrecise];
     CKSubscription *abonnement = [[CKSubscription alloc] initWithRecordType:@"Evenements" predicate:predicat options:CKSubscriptionOptionsFiresOnRecordCreation];
     
     CKNotificationInfo *notificationInfo=[CKNotificationInfo new];

@@ -271,6 +271,12 @@
 -(void) initialiserGPS {
     
     self.finder.GPSFix=NO;
+    dispatch_async(dispatch_get_main_queue(), ^{
+        while (self.finder.locationCourantePrecise.coordinate.latitude==0) {
+            NSLog(@"TOP KEK");
+        }
+    });
+
     
 }
 @end;

@@ -107,7 +107,7 @@
 }
 
 
-//ヽ༼ຈل͜ຈ༽ﾉ RIOT ヽ༼ຈل͜ຈ༽ﾉ 
+
 -(void)inscriptionNotification
 {
     NSPredicate *predicat = [NSPredicate predicateWithFormat:@"distanceToLocation:fromLocation:(SELF.lieu, %@) < 10000", self.finder.locationCourantePrecise];

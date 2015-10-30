@@ -38,6 +38,7 @@
     } while (self.locationCourantePrecise.coordinate.longitude==0);
     if(!self.GPSFix)
     {
+        
 
                 NSLog(@" GPS accroché");
     }
